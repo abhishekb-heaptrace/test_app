@@ -1,0 +1,3 @@
+Git is a version control system.
+It helps track changes in code.
+We can create branches to manage features.
