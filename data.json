@@ -1,0 +1,18 @@
+{
+  "logs": [
+    {
+      "clockIn": "2025-09-25T06:02:50.106Z",
+      "clockOut": "2025-09-25T06:29:55.050Z"
+    },
+    {
+      "clockIn": "2025-09-25T06:29:58.190Z",
+      "clockOut": "2025-09-25T08:21:39.861Z"
+    },
+    {
+      "clockIn": "2025-09-25T08:57:33.291Z",
+      "clockOut": null
+    }
+  ],
+  "remainingTime": 20475,
+  "clockInTimestamp": 1758790653291
+}
