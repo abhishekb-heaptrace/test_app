@@ -1,0 +1,100 @@
+
+/* Body and Background */
+body {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Card Styling */
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Title */
+h1 {
+    font-weight: 700;
+    color: #0d6efd; /* Bootstrap primary */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Timer */
+#timer {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #198754; /* Bootstrap success */
+    background-color: #e9f7ef;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+}
+
+
+/* Buttons */
+button.btn {
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+
+/* Table Styling */
+table {
+    font-size: 1rem;
+    text-align: center;
+}
+
+table thead th {
+    background-color: #0d6efd; /* Bootstrap primary */
+    color: #fff;
+    border-radius: 5px;
+}
+
+table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+table tbody tr:hover {
+    background-color: #e3f2fd; /* light blue hover */
+    cursor: pointer;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    #timer {
+        font-size: 1.5rem;
+        padding: 12px 15px;
+    }
+
+    button.btn {
+        width: 100%;
+    }
+}
+
+
+/* Optional: subtle shadow for table cells */
+table td, table th {
+    padding: 12px;
+    border-top: 1px solid #dee2e6;
+}

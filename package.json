@@ -1,0 +1,27 @@
+{
+  "name": "test_app",
+  "version": "1.0.0",
+  "description": "This repo is for practicing Git branching and workflow.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://abhishekb-heaptrace@github.com/abhishekb-heaptrace/test_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishekb-heaptrace/test_app/issues"
+  },
+  "homepage": "https://github.com/abhishekb-heaptrace/test_app#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
+  }
+}
